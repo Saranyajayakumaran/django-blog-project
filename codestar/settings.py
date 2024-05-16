@@ -12,8 +12,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
-from os import getenv
-
 import dj_database_url
 if os.path.isfile('env.py'):
     import env
@@ -29,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ag4%9a*yj=2-a^nyd$@8p0@m6@57d0kxiemu8myg20lr1bsw)+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-saranyajaya-djangoblogp-oje0bvo9p4w.ws-eu111.gitpod.io','blog-project-dj-8006baa32c3f.herokuapp.com']
 
@@ -88,7 +86,7 @@ WSGI_APPLICATION = 'codestar.wsgi.application'
 #}
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get('postgresql://saranya%20database_owner:ZG1ArwMfxmN7@ep-polished-sound-a2iwul55.eu-central-1.aws.neon.tech/django-blog?sslmode=require'))
+    'default': dj_database_url.parse("postgresql://saranya%20database_owner:ZG1ArwMfxmN7@ep-polished-sound-a2iwul55.eu-central-1.aws.neon.tech/django-blog?sslmode=require")
 }
 
 # Password validation
