@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-ag4%9a*yj=2-a^nyd$@8p0@m6@57d0kxiemu8myg20lr1bsw)+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['8000-saranyajaya-djangoblogp-10z4jjzfgrq.ws-eu114.gitpod.io','blog-project-dj-8006baa32c3f.herokuapp.com']
+ALLOWED_HOSTS = ['8000-saranyajaya-djangoblogp-k8o4tv0s3wa.ws-eu114.gitpod.io','blog-project-dj-8006baa32c3f.herokuapp.com']
 
 
 # Application definition
@@ -92,7 +92,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORGINS=[
-    "https://8000-saranyajaya-djangoblogp-gxeinvj0lmi.ws-eu111.gitpod.io",
+    "https://8000-saranyajaya-djangoblogp-gxeinvj0lmi.ws-eu114.gitpod.io",
     "https://blog-project-dj-8006baa32c3f.herokuapp.com.herokuapp.com"
 ]
 # Password validation
