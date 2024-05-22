@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-ag4%9a*yj=2-a^nyd$@8p0@m6@57d0kxiemu8myg20lr1bsw)+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-saranyajaya-djangoblogp-k8o4tv0s3wa.ws-eu114.gitpod.io','blog-project-dj-8006baa32c3f.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','blog-project-dj-8006baa32c3f.herokuapp.com']
 
 
 # Application definition
@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'codestar.wsgi.application'
 #}
 
 DATABASES = {
-    'default': dj_database_url.parse("postgres://u2xzgnmh6kh:OjzZIPIrzk37@ep-gentle-mountain-a23bxz6h.eu-central-1.aws.neon.tech/scoot_yeast_click_149773")
+    'default': dj_database_url.parse("postgres://u2xzgnmh6kh:OjzZIPIrzk37@ep-gentle-mountain-a23bxz6h.eu-central-1.aws.neon.tech/pull_bunch_prank_507208")
 }
 
 CSRF_TRUSTED_ORGINS=[
