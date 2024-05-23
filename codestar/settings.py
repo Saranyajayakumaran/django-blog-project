@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'codestar.wsgi.application'
 #}
 
 DATABASES = {
-    'default': dj_database_url.parse("postgres://u2xzgnmh6kh:OjzZIPIrzk37@ep-gentle-mountain-a23bxz6h.eu-central-1.aws.neon.tech/pull_bunch_prank_507208")
+    'default': dj_database_url.parse("postgres://u2xzgnmh6kh:OjzZIPIrzk37@ep-gentle-mountain-a23bxz6h.eu-central-1.aws.neon.tech/scoot_yeast_click_149773")
 }
 
 CSRF_TRUSTED_ORGINS=[
