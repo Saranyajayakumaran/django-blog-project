@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-ag4%9a*yj=2-a^nyd$@8p0@m6@57d0kxiemu8myg20lr1bsw)+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-saranyajaya-djangoblogp-3l16swi7dd9.ws.codeinstitute-ide.net','blog-project-dj-8006baa32c3f.herokuapp.com']
+ALLOWED_HOSTS = ['8000-saranyajaya-djangoblogp-3l16swi7dd9.ws.codeinstitute-ide.net','blog-project-dj-8006baa32c3f.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'crispy_forms',
+    'crispy_bootstrap5',
     'django_summernote',
     'blog',
     'about',
@@ -53,6 +55,9 @@ INSTALLED_APPS = [
 SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACKS = "bootstrap5"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
